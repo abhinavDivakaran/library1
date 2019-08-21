@@ -7,8 +7,8 @@
 
 body {
   padding-top:50px;
-  color:#9cf311;
-  background-color:#000000;
+  color:#0d0e0c;
+  background-color:#1febc9;
 }
 
 h1,h2,h3,.highlight,.navbar a,#masthead h4 {
@@ -82,7 +82,7 @@ a,a:hover {
 }
 
 .navbar-bright {
-  background-color:#c4d61c;
+  background-color:#0a0a09;
   color:rgb(67, 17, 158);
   margin-bottom: 0;
   border-width: 0;
@@ -96,7 +96,7 @@ a,a:hover {
 }
 
 .navbar-bright li > a:hover {
-  background-color:#000044;
+  background-color:#6161df;
 }
 
 .dropdown-menu {
