@@ -1,12 +1,21 @@
 const Express = require('express');
+
 const Mongoose=require('mongoose');
+
 var request=require('request');
+
 var bodyparser=require('body-parser');
+
 var app = new Express();
-app.set('view engine','ejs'); 
+
+app.set('view engine','ejs');
+
 app.use(Express.static(__dirname+"/public"));
+
 app.use(bodyparser.json());
+
 app.use(bodyparser.urlencoded({extended:true}));
+
 const add=Mongoose.model("bookdetails",
     {
         title:String,
